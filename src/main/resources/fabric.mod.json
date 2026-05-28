@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "liquidchutes",
+  "version": "0.1",
+  "name": "Liquid Chutes",
+  "description": "Liquid chute",
+  "authors": ["srddssrf"],
+  "contact": {},
+  "license": "GPL-3.0",
+  "icon": "icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.srddssrf.liquid_chutes.LiquidChutes"
+    ]
+  },
+  "mixins": [
+    "liquid_chutes.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "fabric-api": "*",
+    "minecraft": "1.20.1"
+  }
+}

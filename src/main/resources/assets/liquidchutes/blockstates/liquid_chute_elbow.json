@@ -1,0 +1,14 @@
+    {
+      "variants": {
+        "facing=east,waterlogged=false": { "model": "liquidchutes:block/liquid_chute_elbow" },
+        "facing=east,waterlogged=true": { "model": "liquidchutes:block/liquid_chute_elbow" },
+        "facing=south,waterlogged=false": { "model": "liquidchutes:block/liquid_chute_elbow" , "y":90},
+        "facing=south,waterlogged=true": { "model": "liquidchutes:block/liquid_chute_elbow" , "y":90},
+        "facing=west,waterlogged=false": { "model": "liquidchutes:block/liquid_chute_elbow" , "y":180},
+        "facing=west,waterlogged=true": { "model": "liquidchutes:block/liquid_chute_elbow" , "y":180},
+        "facing=north,waterlogged=false": { "model": "liquidchutes:block/liquid_chute_elbow" , "y":270},
+        "facing=north,waterlogged=true": { "model": "liquidchutes:block/liquid_chute_elbow" , "y":270}
+      }
+    }
+
+
